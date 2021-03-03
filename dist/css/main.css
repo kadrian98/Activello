@@ -1,0 +1,346 @@
+body {
+  font-family: 'Lora', serif;
+  font-family: 'Maven Pro', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: #696969;
+  margin: auto;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.tagline {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+.carousel-item h5 {
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.carousel-item h2 {
+  color: #ffffff;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.carousel-item a {
+  display: inline-block;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  line-height: 1;
+  padding: 0 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.women {
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.women:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.turn {
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.turn:hover {
+  color: #df68cf;
+  cursor: pointer;
+}
+
+.card {
+  max-width: 696px;
+  border-bottom: 1px solid #dedede;
+}
+
+.card a {
+  color: #696969;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.card h2 {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.card span {
+  margin-bottom: 2rem;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+}
+
+.card p {
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+.card-body p {
+  text-align: justify;
+}
+
+.card-button a {
+  display: inline-block;
+  border-left: 2px solid #444;
+  border-right: 2px solid #444;
+  line-height: 1;
+  padding: 0 10px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  margin-bottom: 2rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.card__second {
+  padding-top: 2rem;
+  border-top: 1px solid #dedede;
+  width: 671px;
+}
+
+.card__second img {
+  width: 671px;
+}
+
+.card__second a {
+  color: #696969;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.card__second h2 {
+  font-family: "Lora", serif;
+  font-size: 24px;
+  font-style: italic;
+  margin-top: 0;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+.card__second span {
+  margin-bottom: 2rem;
+  font-family: 'Lora', serif;
+  font-size: 13px;
+}
+
+.card__second p {
+  text-align: justify;
+  margin-top: 1rem;
+  font-family: 'Lora', serif;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 2rem;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.text-widget h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: #636467;
+}
+
+.text-widget img {
+  width: 333px;
+  margin-bottom: 1rem;
+}
+
+.widget__activello-social h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  margin-top: 0;
+  color: #636467;
+}
+
+.widget__activello-social .social-icons {
+  width: 70%;
+  margin: auto;
+}
+
+.recent-posts {
+  margin-top: 4rem;
+}
+
+.recent-posts h3 {
+  color: #636467;
+  font-size: 14px;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
+.card-list {
+  margin-top: 2rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-family: 'Lora', serif;
+  margin-left: 1rem;
+}
+
+.card-list__text {
+  margin-left: 1rem;
+  width: 60%;
+}
+
+.card-list h2 {
+  color: #393939;
+  font-size: 16px;
+}
+
+.card-list p {
+  color: #696969;
+  font-size: 12px;
+}
+
+.card-list img {
+  width: 80px;
+}
+
+.input-group {
+  margin-top: 5rem;
+}
+
+.rank-list {
+  margin-top: 3rem;
+}
+
+.rank-list li {
+  font-size: 14px;
+  color: #393939;
+  font-family: 'Lora', serif;
+}
+
+.blog-item-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.post-inner-content {
+  margin-top: 3rem;
+  margin-right: 20px;
+  max-width: 323px;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.post-inner-content header {
+  width: 85%;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.post-inner-content header a {
+  text-decoration: none;
+  color: #696969;
+  font-size: 12px;
+}
+
+.post-inner-content header h2 {
+  color: #444;
+  text-transform: none;
+  font-size: 24px;
+  font-family: 'Lora', serif;
+}
+
+.post-inner-content header span {
+  color: #6b6b6b;
+  font-size: 13px;
+  text-transform: none;
+  font-family: 'Lora', serif;
+}
+
+.post-inner-content p {
+  font-size: 12px;
+  color: #696969;
+  text-transform: none;
+  margin-top: 1rem;
+  font-family: 'Lora', serif;
+  text-align: justify;
+}
+
+.right-footer h5 {
+  color: #696969;
+  font-size: 14px;
+  text-transform: none;
+  margin-top: 4rem;
+}
+
+.right-footer p {
+  text-transform: uppercase;
+  color: #636467;
+  font-size: 14px;
+  margin-top: 3rem;
+}
+
+footer {
+  width: 100%;
+  background-color: #eee;
+  padding: 50px 0px;
+}
+
+footer .socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 15%;
+  margin: auto;
+}
+
+footer p {
+  color: 696969;
+  font-size: 12px;
+  text-transform: none;
+  margin-top: 2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=main.css.map */
